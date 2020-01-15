@@ -6,6 +6,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 ul, li {
@@ -46,6 +51,7 @@ header ul li {
 ----------------------------------------------*/
 
 section {
+  height: 68vh;
   display: flex;
   flex-direction: row;
   background: lightblue;
@@ -71,4 +77,15 @@ section article {
 
 section article p {
   margin: 20px;
+}
+
+/*----------------------------------------------
+-------------------- FOOTER -------------------
+----------------------------------------------*/
+
+footer {
+  background: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
