@@ -41,6 +41,34 @@ header ul li {
   font-size: 20px;
 }
 
+/*----------------------------------------------
+-------------------- SECTION -------------------
+----------------------------------------------*/
 
+section {
+  display: flex;
+  flex-direction: row;
+  background: lightblue;
+}
 
+section aside {
+  flex-grow: 1;
+}
 
+section aside:first-child {
+  background: yellow;
+}
+
+section aside:last-child {
+  background: pink;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+section article p {
+  margin: 20px;
+}
