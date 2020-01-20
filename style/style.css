@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 h1 {
@@ -51,10 +50,9 @@ header ul li {
 ----------------------------------------------*/
 
 section {
-  height: 68vh;
   display: flex;
   flex-direction: row;
-  background: lightblue;
+  background-color: lightblue;
 }
 
 section aside {
@@ -69,6 +67,12 @@ section aside:last-child {
   background: pink;
 }
 
+section .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+}
+
 section article {
   display: flex;
   flex-direction: column;
@@ -77,6 +81,7 @@ section article {
 
 section article p {
   margin: 20px;
+  overflow: hidden;
 }
 
 /*----------------------------------------------
